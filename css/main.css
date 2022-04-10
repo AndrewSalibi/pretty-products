@@ -45,12 +45,12 @@ p {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .1em;
-  padding-bottom: .5em;
+  padding-bottom: 1.5rem;
 }
 
 ul > li {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -64,7 +64,7 @@ div {
   padding-left: 4.05rem;
   padding-right: 4.05rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .cart {
@@ -74,14 +74,25 @@ div {
   border-radius: 3em;
   color: #fff;
   text-decoration: none;
-  margin: 1rem;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-top: .3em;
-  padding-bottom: .6em;
+  margin: .25em;
   float: left;
+  align-content: space-between;
+  text-align: center;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-bottom: 1rem;
 }
 
 .share {
   align-content: flex-end;
+  float: right;
+  margin-right: .7rem;
+  margin-top: .5rem;
+}
+
+.fav {
+  align-content: space-between;
+  float: right;
+  margin-right: 1rem;
+  margin-top: .5rem;
 }
