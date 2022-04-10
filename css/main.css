@@ -1,7 +1,87 @@
 html {
   box-sizing: border-box;
+  font-family: Karma, serif;
+  margin: 0;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+main {
+  margin: 0;
+}
+
+ul {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  grid-gap: 1rem;
+}
+
+li {
+  border-radius: 6px;
+  list-style: none;
+  border: 3px solid #987ffa;
+}
+
+h2 {
+  color: #6f00e7;
+  font-size: 2rem;
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
+  font-family: Karma, serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
+}
+
+ul > li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div {
+  justify-content: space-between;
+}
+
+.item {
+  max-width: 100%;
+  padding-left: 4.05rem;
+  padding-right: 4.05rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cart {
+  background-color: #6f00e7;
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  border-radius: 3em;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: .3em;
+  padding-bottom: .6em;
+  float: left;
+}
+
+.share {
+  align-content: flex-end;
 }
